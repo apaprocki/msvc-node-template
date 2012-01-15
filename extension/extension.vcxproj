@@ -41,12 +41,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <TargetExt>.node</TargetExt>
     <GenerateManifest>false</GenerateManifest>
-    <OutDir>$(NODE_SRC)\$(Configuration)\</OutDir>
+    <OutDir>$(NODE_SRC)\Debug\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <TargetExt>.node</TargetExt>
     <GenerateManifest>false</GenerateManifest>
-    <OutDir>$(NODE_SRC)\$(Configuration)\</OutDir>
+    <OutDir>$(NODE_SRC)\Debug\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
